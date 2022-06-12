@@ -5,7 +5,8 @@
 }
 
 body {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     font-family: "Poppins", sans-serif;
 }
 
@@ -37,8 +38,8 @@ body>div {
     text-align: center;
     color: #c23564;
     background-color: #fff;
-    /* border-top-left-radius: 5px;
-    border-top-right-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-bottom: 5px solid transparent;
     opacity: 0.6;
     cursor: pointer;
